@@ -43,7 +43,7 @@ public class ArrayPriorityQueue {
   public boolean isEmpty() {
     return _data.size()<=0;
   } 
- public String toString(){ return _ar.toString();}
+ public String toString(){ return _data.toString();}
     
     public static void main(String argsp[]){
 	ArrayPriorityQueue mrMyk = new ArrayPriorityQueue();
