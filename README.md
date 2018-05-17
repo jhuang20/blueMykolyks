@@ -7,3 +7,10 @@ Our group decided to use a constant run time for add because we followed what wa
 Our add() is O(1)
 Our peekMin() is O(n)
 Our removeMin() is O(n)
+
+### Heap ToDo
+
+*Build Constructor
+*Program add method
+*Program remove method
+*Program toString method
