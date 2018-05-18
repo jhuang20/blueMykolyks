@@ -5,13 +5,12 @@
 
 /*****************************************************
  * class ALHeap
- * SKELETON
- * Implements a min heap using an ArrayList as underlying container
+  * Implements a min heap using an ArrayList as underlying container
  *****************************************************/
 
 import java.util.ArrayList;
 
-public class ALHeap
+public class ALHeapMin
 {
 
     //instance vars
@@ -20,7 +19,7 @@ public class ALHeap
     /*****************************************************
      * default constructor  ---  inits empty heap
      *****************************************************/
-    public ALHeap()
+    public ALHeapMin()
     {
 	_heap = new ArrayList<Integer>();
     }
@@ -156,7 +155,7 @@ public class ALHeap
     //main method for testing
     public static void main( String[] args )
     {
-	  ALHeap pile = new ALHeap();
+	  ALHeapMin pile = new ALHeapMin();
 
 	  pile.add(2);
 	  System.out.println(pile);
