@@ -55,7 +55,9 @@ public class ALHeapMin
 	return _heap.size() == 0;
     }//O(?)
 
-
+public int getSize() {
+	return _heap.size();
+}
     /*****************************************************
      * Integer peekMin()
      * Returns min value in heap
