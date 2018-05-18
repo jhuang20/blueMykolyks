@@ -55,7 +55,9 @@ public class ALHeapMax
 	return _heap.size() == 0;
     }//O(?)
 
-
+public int getSize() {
+	return _heap.size();
+}
     /*****************************************************
      * Integer peekMax()
      * Returns max value in heap
